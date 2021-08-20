@@ -90,7 +90,7 @@ int main()
         //cout << endl;
         if(x == stoi(xs) * stoi(ys)){
             score++;
-            cout << "Correct! Your score is " << score << "/144 or " << score / 144.0 * 100 << " % of " << c + 1 << " questions." << endl << endl;
+            cout << "Correct! Your score is " << score << "/" << c + 1 <<  " or " << score * 1.0 / (c + 1) * 100 << "% of " << c + 1 << " questions." << endl << endl;
         }
         else{
             cout << "Wrong. " << xs << " x " << ys << " = " << stoi(xs) * stoi(ys) << endl << endl;
