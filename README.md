@@ -1,7 +1,7 @@
 # randomizedmultiplicationtable
 Randomize the order of a 12 x 12 multiplication table.
 
-Here is a sample output, although it is formatted incorrectly in this README file:
+Here is a sample output (click RAW to view as it should be displayed):
 
 
 ms[0] = 1*1=1
