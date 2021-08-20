@@ -20,6 +20,8 @@ string xs, ys, ps; //product
 int posx; //position of x
 int pose; //position of =
 
+int score;
+
 int main()
 {
     
@@ -70,4 +72,29 @@ int main()
         cout << xs << " x " << ys << " = " << stoi(xs) * stoi(ys) << endl; //verifies that conversion worked.
     }
     
+    cout << endl << endl;
+    
+    // Test them.
+    score = 0;
+    for (int c = 0; c < 144; c++){
+        int posx = ms[c].find("*");
+        int pose = ms[c].find("=");
+        // Copy substring after pos
+        xs = ms[c].substr(0, posx);
+        ys = ms[c].substr(posx + 1, pose - posx - 1);
+        ps = ms[c].substr(pose + 1);
+    
+        //cout << endl;
+        cout << xs << " x " << ys << " = " ;
+        cin >> x;
+        //cout << endl;
+        if(x == stoi(xs) * stoi(ys)){
+            score++;
+            cout << "Correct! Your score is " << score << "/144 or " << score / 144.0 * 100 << " % of " << c + 1 << " questions." << endl << endl;
+        }
+        else{
+            cout << "Wrong. " << xs << " x " << ys << " = " << stoi(xs) * stoi(ys) << endl << endl;
+        
+        }
+    }
 }
