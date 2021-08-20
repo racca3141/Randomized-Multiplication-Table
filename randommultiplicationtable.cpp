@@ -93,8 +93,8 @@ int main()
             cout << "Correct! Your score is " << score << "/" << c + 1 <<  " or " << score * 1.0 / (c + 1) * 100 << "% of " << c + 1 << " questions." << endl << endl;
         }
         else{
-            cout << "Wrong. " << xs << " x " << ys << " = " << stoi(xs) * stoi(ys) << endl << endl;
-        
+            cout << "Wrong. " << xs << " x " << ys << " = " << stoi(xs) * stoi(ys) << endl;
+            cout << "Your score is " << score << "/" << c + 1 <<  " or " << score * 1.0 / (c + 1) * 100 << "% of " << c + 1 << " questions." << endl << endl;
         }
     }
 }
