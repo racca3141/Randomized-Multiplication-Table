@@ -1,6 +1,6 @@
 # randomizedmultiplicationtable
 
-The motivation for this project was to create a learning app for my children, Blaise and Chloe. The logic below was tranferred to an IOS app, one that they can use on their tablet without having to download one from the App Store. 
+The motivation for this project was to create a learning app for my children, Blaise and Chloe. The logic below was transferred to an IOS app, one that they can use on their tablet without having to download one from the App Store. 
 
 Randomize the order of a 12 x 12 multiplication table. A "test your knowledge" with scoring routine is included at the end.
 
